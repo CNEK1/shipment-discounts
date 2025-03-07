@@ -1,5 +1,5 @@
 import DiscountContext from '../utils/context';
-import AbstractDiscountHandler from './discountHandler';
+import AbstractDiscountHandler from './abstarctDiscountHandler';
 /**
  * Handler for enforcing a 10-euro discount limit per month..
  *

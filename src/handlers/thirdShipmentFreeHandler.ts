@@ -1,6 +1,6 @@
 import DiscountContext from '../utils/context';
 import {PRICE_TABLE} from '../utils/types';
-import AbstractDiscountHandler from './discountHandler';
+import AbstractDiscountHandler from './abstarctDiscountHandler';
 
 /**
  * Handler for granting a free third 'L' size shipment with the LP provider.

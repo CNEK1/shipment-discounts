@@ -33,7 +33,7 @@ const main = (): void => {
 
   const shipmentService = new ShipmentService(lowerPriceHandler);
 
-  const inputFile = './data/input.txt';
+  const inputFile = 'src/data/input.txt';
   const results = processShippingDiscounts(inputFile, shipmentService);
 
   console.log(results.join('\n'));

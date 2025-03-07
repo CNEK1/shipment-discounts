@@ -2,7 +2,7 @@ import DiscountContext from '../utils/context';
 import {PackageSize, Provider} from '../utils/types';
 
 /**
- * Represents a shipment with pricing and discount details.
+ * Interface for shipment with pricing and discount details.
  */
 export interface Shipment {
   /** The date of the shipment. */
@@ -18,7 +18,7 @@ export interface Shipment {
 }
 
 /**
- * Represents a processed shipment, including the original input and processing details.
+ * Interface for processed shipment, including the original input and processing details.
  */
 export interface ProcessedShipment {
   /** The original input line as a string. */

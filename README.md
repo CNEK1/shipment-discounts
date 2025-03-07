@@ -9,13 +9,13 @@ The hometask is implemented in Node.js using TypeScript. This choice was made be
 ## Technical Implementation
 
 The project uses a Chain of Responsibility pattern to process discount rules in a specific sequence. This pattern was chosen because:
-----------------------------
+
 * The order of applying discounts matters (e.g., the monthly limit should be applied after calculating all other discounts)
 * It allows for independent testing of each rule
 * It provides flexibility to add, remove, or modify rules without changing the core logic
 
 Dependency Injection is used throughout the project to:
-----------------------------
+
 * Increase testability by allowing mock dependencies
 * Make components loosely coupled
 * Enable easier unit testing of individual rules

@@ -2,10 +2,6 @@
 
 This hometask calculates shipment discounts for Vinted's shipping options in France, specifically focusing on the services provided by 'Mondial Relay' (MR) and 'La Poste' (LP). The design emphasizes flexibility and ease of modification to accommodate potential future requirements.
 
-## Language and Framework Choice
-
-The hometask is implemented in Node.js using TypeScript. This choice was made because of testing. In the past I worked with Jest, and for example, in C++, I did not touch the frameworks for testing, which would have taken me some extra time.
-
 ## Technical Implementation
 
 The project uses a Chain of Responsibility pattern to process discount rules in a specific sequence. This pattern was chosen because:

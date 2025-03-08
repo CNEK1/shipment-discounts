@@ -16,6 +16,20 @@ Dependency Injection is used throughout the project to:
 * Make components loosely coupled
 * Enable easier unit testing of individual rules
 
+In the folder structure, 'handlers' contains all the different types of discount handlers as well as an abstract class for them. The 'services' folder contains the file with the main logic - the shipment service. This architecture was deliberately designed to minimize interaction with the service file, allowing for better separation of concerns and making the system more maintainable and extensible.
+
+# Tests Description
+1. S shipments should apply a discount matching the lowest S package price for MR.
+2. S shipments should apply a discount matching the lowest S package price for LP.
+3. Should limit monthly discount and adjust shipment price.
+4. Discount limit resets at the start of a new month.
+5. Given three shipments in the same month, all from LP and size L, the third shipment should be free.
+6. Given three shipments in the same month, two from LP of size L and one from MR, the third shipment should not receive any discount.
+7. Should not apply discount if a free shipment was already given in the month.
+8. Shipments discount resets at the start of a new month.
+9. Third Shipment L by LP should be free but must not exceed the monthly limit.
+10. S shipments by any provider should receive a discount matching the lowest S package price.
+
 # How to use
 
 1. Git clone this repo

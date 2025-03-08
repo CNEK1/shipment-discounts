@@ -1,6 +1,6 @@
-# Backend Homework Assignment
+# Shipment Discounts
 
-This hometask calculates shipment discounts for Vinted's shipping options in France, specifically focusing on the services provided by 'Mondial Relay' (MR) and 'La Poste' (LP). The design emphasizes flexibility and ease of modification to accommodate potential future requirements.
+This code calculates shipment discounts for shipping options in France, specifically focusing on the services provided by 'Mondial Relay' (MR) and 'La Poste' (LP). The design emphasizes flexibility and ease of modification to accommodate potential future requirements.
 
 ## Technical Implementation
 
